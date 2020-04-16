@@ -1,6 +1,6 @@
 {
   "name": "awesomenauts-drafter",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,10 +12,12 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.0",
+    "@angular/cdk": "^9.2.1",
     "@angular/common": "~9.1.0",
     "@angular/compiler": "~9.1.0",
     "@angular/core": "~9.1.0",
     "@angular/forms": "~9.1.0",
+    "@angular/material": "^9.2.1",
     "@angular/platform-browser": "~9.1.0",
     "@angular/platform-browser-dynamic": "~9.1.0",
     "@angular/router": "~9.1.0",
@@ -43,5 +45,9 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.8.3"
-  }
+  },
+  "description": "Help ban and select awesomenauts",
+  "main": "src/main.ts",
+  "author": "Jeff Sallans",
+  "license": "ISC"
 }

@@ -1,0 +1,27 @@
+img.naut__img {
+    padding: 10px;
+}
+
+.naut {
+    position: relative;
+}
+
+.naut__red {
+    position: absolute;
+    background: red;
+    padding: 5px;
+    height: 25px;
+    border-radius: 25px;
+    top: 5px;
+    left: 20px;
+}
+
+.naut__blue {
+    position: absolute;
+    background: blue;
+    padding: 5px;
+    height: 25px;
+    border-radius: 25px;
+    top: 5px;
+    right: 20px;
+}
