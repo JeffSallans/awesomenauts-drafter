@@ -1,12 +1,12 @@
 <div class="naut">
-    <button mat-button (click)="toggleNaut()">
-        <div class="naut__red" *ngIf="state === NautState.RedBanned || state === NautState.BothBanned || state === NautState.RedSelected || state === NautState.BothSelected">
-            <mat-icon class="naut__red-banned" *ngIf="state === NautState.RedBanned || state === NautState.BothBanned" aria-hidden="false" aria-label="Banned">close</mat-icon>
-            <mat-icon class="naut__red-selected" *ngIf="state === NautState.RedSelected || state === NautState.BothSelected" aria-hidden="false" aria-label="Selected">check</mat-icon>
+    <button mat-button (click)="toggleRedNaut()" (contextmenu)="toggleBlueNaut()">
+        <div class="naut__red" *ngIf="redState === NautState.Banned || redState === NautState.Selected">
+            <mat-icon class="naut__red-banned" *ngIf="redState === NautState.Banned" aria-hidden="false" aria-label="Banned">close</mat-icon>
+            <mat-icon class="naut__red-selected" *ngIf="redState === NautState.Selected" aria-hidden="false" aria-label="Selected">check</mat-icon>
         </div>
-        <div class="naut__blue" *ngIf="state === NautState.BlueBanned || state === NautState.BothBanned || state === NautState.BlueSelected || state === NautState.BothSelected">
-            <mat-icon class="naut__blue-banned" *ngIf="state === NautState.BlueBanned || state === NautState.BothBanned" aria-hidden="false" aria-label="Banned">close</mat-icon>
-            <mat-icon class="naut__blue-selected" *ngIf="state === NautState.BlueSelected || state === NautState.BothSelected" aria-hidden="false" aria-label="Selected">check</mat-icon>
+        <div class="naut__blue" *ngIf="blueState === NautState.Banned || blueState === NautState.Selected">
+            <mat-icon class="naut__blue-banned" *ngIf="blueState === NautState.Banned" aria-hidden="false" aria-label="Banned">close</mat-icon>
+            <mat-icon class="naut__blue-selected" *ngIf="blueState === NautState.Selected" aria-hidden="false" aria-label="Selected">check</mat-icon>
         </div>
         <img class="naut__img"
             [src]="src"
