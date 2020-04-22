@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { Naut } from '../services/naut';
 import { NautDataService } from '../services/naut-data.service';
+import { Naut } from '../services/naut';
 
 @Component({
-  selector: 'ad-naut-picker',
-  templateUrl: './naut-picker.component.html',
-  styleUrls: ['./naut-picker.component.css']
+  selector: 'ad-user-preferences',
+  templateUrl: './user-preferences.component.html',
+  styleUrls: ['./user-preferences.component.css']
 })
-export class NautPickerComponent implements OnInit {
+export class UserPreferencesComponent implements OnInit {
 
   displayNautList: Naut[];
 
@@ -18,4 +18,5 @@ export class NautPickerComponent implements OnInit {
   ngOnInit(): void {
       this.displayNautList = this.nautDataService.allNauts;
   }
+
 }

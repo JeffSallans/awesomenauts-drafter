@@ -41,6 +41,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 // import {MatTooltipModule} from '@angular/material/tooltip';
 // import {MatTreeModule} from '@angular/material/tree';
 import { NautComponent } from './naut/naut.component';
+import { UserPreferencesComponent } from './user-preferences/user-preferences.component';
+import { NautDataService } from './services/naut-data.service';
 
 @NgModule({
   declarations: [
@@ -48,6 +50,7 @@ import { NautComponent } from './naut/naut.component';
     NautPickerComponent,
     PageNotFoundComponent,
     NautComponent,
+    UserPreferencesComponent,
   ],
   imports: [
     BrowserModule,
@@ -58,7 +61,9 @@ import { NautComponent } from './naut/naut.component';
     MatGridListModule,
     MatIconModule,
   ],
-  providers: [],
+  providers: [
+    NautDataService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
