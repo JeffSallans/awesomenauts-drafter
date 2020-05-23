@@ -7,4 +7,6 @@ export interface Naut {
     name: string;
     /* Type of naut */
     type?: NautType;
+    /* Type of rarity */
+    tier?: string;
 }

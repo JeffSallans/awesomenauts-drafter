@@ -43,6 +43,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { NautComponent } from './naut/naut.component';
 import { UserPreferencesComponent } from './user-preferences/user-preferences.component';
 import { NautDataService } from './services/naut-data.service';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { NautDataService } from './services/naut-data.service';
     PageNotFoundComponent,
     NautComponent,
     UserPreferencesComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

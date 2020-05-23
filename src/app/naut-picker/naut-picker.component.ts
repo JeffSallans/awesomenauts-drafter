@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Naut } from '../services/naut';
 import { NautDataService } from '../services/naut-data.service';
+import { ActivatedRoute } from '@angular/router';
+import { isNil } from 'lodash';
 
 @Component({
   selector: 'ad-naut-picker',
@@ -13,9 +15,16 @@ export class NautPickerComponent implements OnInit {
 
   constructor(
     private nautDataService: NautDataService,
+    private activatedRoute: ActivatedRoute
   ) { }
 
   ngOnInit(): void {
-      this.displayNautList = this.nautDataService.allNauts;
+      this.activatedRoute.queryParams.subscribe((queryParams) => {
+        if (!isNil(queryParams.player)) {
+          this.displayNautList = this.nautDataService.getRandomNautsPack(queryParams.player);
+        } else {
+          this.displayNautList = this.nautDataService.allNauts;
+        }
+      });
   }
 }
