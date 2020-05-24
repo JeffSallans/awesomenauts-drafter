@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "docker:build": "docker build . -t awesome-drafter",
-    "docker:run": "docker run -p 8080:80 awesome-drafter",
+    "docker:run": "docker run -p 8081:80 awesome-drafter"
   },
   "private": true,
   "dependencies": {
