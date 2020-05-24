@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { NautPickerComponent } from './naut-picker/naut-picker.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { UserPreferencesComponent } from './user-preferences/user-preferences.component';
+import { NautPacksComponent } from './naut-packs/naut-packs.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,10 @@ const routes: Routes = [
   {
     path: 'naut-picker',
     component: NautPickerComponent,
+  },
+  {
+    path: 'naut-packs',
+    component: NautPacksComponent,
   },
   {
     path: 'user-pref',

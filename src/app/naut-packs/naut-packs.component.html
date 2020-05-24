@@ -1,0 +1,33 @@
+<div class="naut-picker mat-body">
+    <div>
+        <button mat-button class="naut-picker__new-game" (click)="newGame()">New Game</button>
+    </div>
+
+    <div><h2 mat-h2>Thynix</h2> <button mat-button class="naut-picker__reroll" (click)="reroll('thynix')">Reroll</button></div>
+    <mat-grid-list class="naut-picker__grid" cols="5" rowHeight="1:1">
+        <mat-grid-tile *ngFor="let naut of thynixNautPack">
+            <ad-naut *ngIf="naut" [name]="naut.name" [isGolden]="naut.isGolden" [rarity]="naut.tier" [src]="'assets/nauts/' + naut.id +'.png'"></ad-naut>
+        </mat-grid-tile>
+    </mat-grid-list>
+
+    <div><h2 mat-h2>Hasp</h2> <button mat-button class="naut-picker__reroll" (click)="reroll('hasp')">Reroll</button></div>
+    <mat-grid-list class="naut-picker__grid" cols="5" rowHeight="1:1">
+        <mat-grid-tile *ngFor="let naut of haspNautPack">
+            <ad-naut *ngIf="naut" [name]="naut.name" [isGolden]="naut.isGolden" [rarity]="naut.tier" [src]="'assets/nauts/' + naut.id +'.png'"></ad-naut>
+        </mat-grid-tile>
+    </mat-grid-list>           
+
+    <div><h2 mat-h2>Mathmatical</h2> <button mat-button class="naut-picker__reroll" (click)="reroll('mathmatical')">Reroll</button></div>
+    <mat-grid-list class="naut-picker__grid" cols="5" rowHeight="1:1">
+        <mat-grid-tile *ngFor="let naut of mathmaticalNautPack">
+            <ad-naut *ngIf="naut" [name]="naut.name" [isGolden]="naut.isGolden" [rarity]="naut.tier" [src]="'assets/nauts/' + naut.id +'.png'"></ad-naut>
+        </mat-grid-tile>
+    </mat-grid-list>
+
+    <div><h2 mat-h2>Mlripper</h2> <button mat-button class="naut-picker__reroll" (click)="reroll('mlripper')">Reroll</button></div>
+    <mat-grid-list class="naut-picker__grid" cols="5" rowHeight="1:1">
+        <mat-grid-tile *ngFor="let naut of mlripperNautPack">
+            <ad-naut *ngIf="naut" [name]="naut.name" [isGolden]="naut.isGolden" [rarity]="naut.tier" [src]="'assets/nauts/' + naut.id +'.png'"></ad-naut>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { get, filter, shuffle, random, map, flatten, union, includes, some } from 'lodash';
+import { get, filter, shuffle, random, map, flatten, union, includes, some, isNil } from 'lodash';
 import { Naut } from './naut';
 import * as nautJsonData from './naut-data.json';
 import * as haspData from './hasp.json';
@@ -34,15 +34,19 @@ export class NautDataService {
     if (player === 'thynix') {
       playerNauts = get(thynixData, 'default', []) as Naut[];
     }
+    // Remove any golden flags
+    playerNauts.forEach((naut) => {
+      naut.isGolden = false;
+    });
     return playerNauts;
   }
 
   getRandomNautsPack(player: string) {
     const nauts = this.getNautsForPlayer(player);
 
-    const legendaryNauts = filter(nauts, (naut) => naut.tier === "legendary") || [];
-    const epicNauts = filter(nauts, (naut) => naut.tier === "epic") || [];
-    const rareNauts = filter(nauts, (naut) => naut.tier !== "legendary" && naut.tier !== "epic" && naut.tier !== "common") || [];
+    const legendaryNauts = filter(nauts, (naut) => naut.tier === 'legendary') || [];
+    const epicNauts = filter(nauts, (naut) => naut.tier === 'epic') || [];
+    const rareNauts = filter(nauts, (naut) => naut.tier !== 'legendary' && naut.tier !== 'epic' && naut.tier !== 'common') || [];
 
     const shuffledLegendaryNauts = shuffle(legendaryNauts);
     const shuffledEpicNauts = shuffle(epicNauts);
@@ -66,10 +70,16 @@ export class NautDataService {
       }
     });
 
-    const hasLegendaryOrEpicNauts = some(nautPool, (naut) => naut && (naut.tier === "legendary" || naut.tier === "epic"));
+    const hasLegendaryOrEpicNauts = some(nautPool, (naut) => naut && (naut.tier === 'legendary' || naut.tier === 'epic'));
 
     if (!hasLegendaryOrEpicNauts) {
       nautPool[0] = shuffledEpicNauts.pop();
+    }
+
+    // Add golden plating
+    const goldPlatingIndex = random(15);
+    if (!isNil(nautPool[goldPlatingIndex]) && nautPool[goldPlatingIndex].tier !== 'legendary') {
+      nautPool[goldPlatingIndex].isGolden = true;
     }
 
     return nautPool;

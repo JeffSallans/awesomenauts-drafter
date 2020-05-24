@@ -9,4 +9,6 @@ export interface Naut {
     type?: NautType;
     /* Type of rarity */
     tier?: string;
+    /* True if the naut is golden */
+    isGolden: boolean;
 }

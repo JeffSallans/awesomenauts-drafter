@@ -25,3 +25,39 @@ img.naut__img {
     top: 5px;
     right: 20px;
 }
+
+.naut__golden {
+    position: absolute;
+    padding: 5px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .6;
+    border-radius: 0;
+    margin: 10px;
+    margin-left: 26px;
+    margin-right: 26px;
+    height: 70px;
+    background: #d29018;
+}
+
+.naut__epic {
+    position: absolute;
+    background: purple;
+    padding: 5px;
+    height: 25px;
+    border-radius: 25px;
+    bottom: 5px;
+    left: 20px;
+}
+
+.naut__legendary {
+    position: absolute;
+    background: orangered;
+    padding: 5px;
+    height: 25px;
+    border-radius: 25px;
+    bottom: 5px;
+    left: 20px;
+}

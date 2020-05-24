@@ -1,0 +1,18 @@
+.naut-picker {
+    width: 700px;
+    margin: auto;
+}
+
+h2 {
+    display: inline-block;
+}
+
+.naut-picker__new-game {
+    margin-top: 1rem;
+    margin-left: 300px;
+    margin-bottom: 1rem;
+}
+
+.naut-picker__reroll {
+    margin-left: 1rem;
+}

@@ -1,5 +1,6 @@
 <div class="naut">
     <button mat-button (click)="toggleRedNaut()" (contextmenu)="toggleBlueNaut()">
+        <div class="naut__golden" *ngIf="isGolden"></div>
         <div class="naut__red" *ngIf="redState === NautState.Banned || redState === NautState.Selected">
             <mat-icon class="naut__red-banned" *ngIf="redState === NautState.Banned" aria-hidden="false" aria-label="Banned">close</mat-icon>
             <mat-icon class="naut__red-selected" *ngIf="redState === NautState.Selected" aria-hidden="false" aria-label="Selected">check</mat-icon>
@@ -7,6 +8,12 @@
         <div class="naut__blue" *ngIf="blueState === NautState.Banned || blueState === NautState.Selected">
             <mat-icon class="naut__blue-banned" *ngIf="blueState === NautState.Banned" aria-hidden="false" aria-label="Banned">close</mat-icon>
             <mat-icon class="naut__blue-selected" *ngIf="blueState === NautState.Selected" aria-hidden="false" aria-label="Selected">check</mat-icon>
+        </div>
+        <div class="naut__epic" *ngIf="rarity === 'epic'">
+            <mat-icon class="naut__epic-icon" aria-hidden="false" aria-label="radio_button_unchecked">radio_button_unchecked</mat-icon>
+        </div>
+        <div class="naut__legendary" *ngIf="rarity === 'legendary'">
+            <mat-icon class="naut__legendary-icon" aria-hidden="false" aria-label="star_outline">star_outline</mat-icon>
         </div>
         <img class="naut__img"
             [src]="src"

@@ -44,11 +44,13 @@ import { NautComponent } from './naut/naut.component';
 import { UserPreferencesComponent } from './user-preferences/user-preferences.component';
 import { NautDataService } from './services/naut-data.service';
 import { LoginComponent } from './login/login.component';
+import { NautPacksComponent } from './naut-packs/naut-packs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NautPickerComponent,
+    NautPacksComponent,
     PageNotFoundComponent,
     NautComponent,
     UserPreferencesComponent,

@@ -14,6 +14,8 @@ enum NautState {
 export class NautComponent implements OnInit {
   @Input() name: string = '';
   @Input() src: string = '';
+  @Input() isGolden = false;
+  @Input() rarity = 'rare';
 
   redState = NautState.Unselected;
   blueState = NautState.Unselected;
