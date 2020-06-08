@@ -8,8 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "docker:build": "docker build . -t awesome-drafter",
-    "docker:run": "docker run -p 8081:80 awesome-drafter"
+    "docker:build": "docker build . -t jeffsallans/awesomenauts-drafter",
+    "docker:run": "docker run -p 8081:80 jeffsallans/awesomenauts-drafter",
+    "docker:push": "docker push jeffsallans/awesomenauts-drafter"
   },
   "private": true,
   "dependencies": {
