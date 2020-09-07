@@ -14,6 +14,7 @@ export class NautPacksComponent implements OnInit {
   haspNautPack: Naut[];
   mathmaticalNautPack: Naut[];
   mlripperNautPack: Naut[];
+  qazwodeNautPack: Naut[];
 
   constructor(
     private nautDataService: NautDataService,
@@ -24,6 +25,7 @@ export class NautPacksComponent implements OnInit {
     this.haspNautPack = this.nautDataService.getRandomNautsPack('hasp');
     this.mathmaticalNautPack = this.nautDataService.getRandomNautsPack('mathmatical');
     this.mlripperNautPack = this.nautDataService.getRandomNautsPack('mlripper');
+    this.qazwodeNautPack = this.nautDataService.getRandomNautsPack('qazwode');
   }
 
   newGame(): void {
@@ -31,6 +33,7 @@ export class NautPacksComponent implements OnInit {
     this.haspNautPack = this.nautDataService.getRandomNautsPack('hasp');
     this.mathmaticalNautPack = this.nautDataService.getRandomNautsPack('mathmatical');
     this.mlripperNautPack = this.nautDataService.getRandomNautsPack('mlripper');
+    this.qazwodeNautPack = this.nautDataService.getRandomNautsPack('qazwode');
   }
 
   reroll(player: string): void {
@@ -45,6 +48,9 @@ export class NautPacksComponent implements OnInit {
     }
     if (player === 'mlripper') {
       this.mlripperNautPack = this.nautDataService.getRandomNautsPack('mlripper');
+    }
+    if (player === 'qazwode') {
+      this.qazwodeNautPack = this.nautDataService.getRandomNautsPack('qazwode');
     }
   }
 }

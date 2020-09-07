@@ -6,6 +6,7 @@ import * as haspData from './hasp.json';
 import * as mathmaticalData from './mathmatical.json';
 import * as mlripperData from './mlripper.json';
 import * as thynixData from './thynix.json';
+import * as qazwodeData from './qazwode.json';
 import { mapToMapExpression } from '@angular/compiler/src/render3/util';
 
 @Injectable({
@@ -33,6 +34,9 @@ export class NautDataService {
     }
     if (player === 'thynix') {
       playerNauts = get(thynixData, 'default', []) as Naut[];
+    }
+    if (player === 'qazwode') {
+      playerNauts = get(qazwodeData, 'default', []) as Naut[];
     }
     // Remove any golden flags
     playerNauts.forEach((naut) => {
