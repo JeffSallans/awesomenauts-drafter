@@ -579,9 +579,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       if (rf & 2) {
-        var naut_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+        var naut_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("name", naut_r4.name)("isGolden", naut_r4.isGolden)("rarity", naut_r4.tier)("src", "assets/nauts/" + naut_r4.id + ".png");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("name", naut_r5.name)("isGolden", naut_r5.isGolden)("rarity", naut_r5.tier)("src", "assets/nauts/" + naut_r5.id + ".png");
       }
     }
 
@@ -595,11 +595,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       if (rf & 2) {
-        var naut_r4 = ctx.$implicit;
+        var naut_r5 = ctx.$implicit;
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", naut_r4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", naut_r5);
       }
     }
 
@@ -609,9 +609,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       if (rf & 2) {
-        var naut_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+        var naut_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("name", naut_r7.name)("isGolden", naut_r7.isGolden)("rarity", naut_r7.tier)("src", "assets/nauts/" + naut_r7.id + ".png");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("name", naut_r8.name)("isGolden", naut_r8.isGolden)("rarity", naut_r8.tier)("src", "assets/nauts/" + naut_r8.id + ".png");
       }
     }
 
@@ -625,11 +625,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       if (rf & 2) {
-        var naut_r7 = ctx.$implicit;
+        var naut_r8 = ctx.$implicit;
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", naut_r7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", naut_r8);
       }
     }
 
@@ -639,9 +639,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       if (rf & 2) {
-        var naut_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+        var naut_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("name", naut_r10.name)("isGolden", naut_r10.isGolden)("rarity", naut_r10.tier)("src", "assets/nauts/" + naut_r10.id + ".png");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("name", naut_r11.name)("isGolden", naut_r11.isGolden)("rarity", naut_r11.tier)("src", "assets/nauts/" + naut_r11.id + ".png");
       }
     }
 
@@ -655,11 +655,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       if (rf & 2) {
-        var naut_r10 = ctx.$implicit;
+        var naut_r11 = ctx.$implicit;
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", naut_r10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", naut_r11);
       }
     }
 
@@ -669,9 +669,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       if (rf & 2) {
-        var naut_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+        var naut_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("name", naut_r13.name)("isGolden", naut_r13.isGolden)("rarity", naut_r13.tier)("src", "assets/nauts/" + naut_r13.id + ".png");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("name", naut_r14.name)("isGolden", naut_r14.isGolden)("rarity", naut_r14.tier)("src", "assets/nauts/" + naut_r14.id + ".png");
       }
     }
 
@@ -685,11 +685,41 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       if (rf & 2) {
-        var naut_r13 = ctx.$implicit;
+        var naut_r14 = ctx.$implicit;
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", naut_r13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", naut_r14);
+      }
+    }
+
+    function NautPacksComponent_mat_grid_tile_38_ad_naut_1_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "ad-naut", 7);
+      }
+
+      if (rf & 2) {
+        var naut_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("name", naut_r17.name)("isGolden", naut_r17.isGolden)("rarity", naut_r17.tier)("src", "assets/nauts/" + naut_r17.id + ".png");
+      }
+    }
+
+    function NautPacksComponent_mat_grid_tile_38_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-grid-tile");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NautPacksComponent_mat_grid_tile_38_ad_naut_1_Template, 1, 4, "ad-naut", 6);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var naut_r17 = ctx.$implicit;
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", naut_r17);
       }
     }
 
@@ -707,6 +737,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.haspNautPack = this.nautDataService.getRandomNautsPack('hasp');
           this.mathmaticalNautPack = this.nautDataService.getRandomNautsPack('mathmatical');
           this.mlripperNautPack = this.nautDataService.getRandomNautsPack('mlripper');
+          this.qazwodeNautPack = this.nautDataService.getRandomNautsPack('qazwode');
         }
       }, {
         key: "newGame",
@@ -715,6 +746,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.haspNautPack = this.nautDataService.getRandomNautsPack('hasp');
           this.mathmaticalNautPack = this.nautDataService.getRandomNautsPack('mathmatical');
           this.mlripperNautPack = this.nautDataService.getRandomNautsPack('mlripper');
+          this.qazwodeNautPack = this.nautDataService.getRandomNautsPack('qazwode');
         }
       }, {
         key: "reroll",
@@ -734,6 +766,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           if (player === 'mlripper') {
             this.mlripperNautPack = this.nautDataService.getRandomNautsPack('mlripper');
           }
+
+          if (player === 'qazwode') {
+            this.qazwodeNautPack = this.nautDataService.getRandomNautsPack('qazwode');
+          }
         }
       }]);
 
@@ -747,8 +783,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     NautPacksComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: NautPacksComponent,
       selectors: [["ad-naut-packs"]],
-      decls: 32,
-      vars: 4,
+      decls: 39,
+      vars: 5,
       consts: [[1, "naut-picker", "mat-body"], ["mat-button", "", 1, "naut-picker__new-game", 3, "click"], ["mat-h2", ""], ["mat-button", "", 1, "naut-picker__reroll", 3, "click"], ["cols", "5", "rowHeight", "1:1", 1, "naut-picker__grid"], [4, "ngFor", "ngForOf"], [3, "name", "isGolden", "rarity", "src", 4, "ngIf"], [3, "name", "isGolden", "rarity", "src"]],
       template: function NautPacksComponent_Template(rf, ctx) {
         if (rf & 1) {
@@ -872,6 +908,32 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "h2", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Qazwode");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "button", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NautPacksComponent_Template_button_click_35_listener() {
+            return ctx.reroll("qazwode");
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Reroll");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "mat-grid-list", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](38, NautPacksComponent_mat_grid_tile_38_Template, 2, 1, "mat-grid-tile", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
 
@@ -891,6 +953,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.mlripperNautPack);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.qazwodeNautPack);
         }
       },
       directives: [_angular_material_button__WEBPACK_IMPORTED_MODULE_2__["MatButton"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_3__["MatGridList"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_3__["MatGridTile"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _naut_naut_component__WEBPACK_IMPORTED_MODULE_5__["NautComponent"]],
@@ -1630,6 +1696,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _thynix_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(
     /*! ./thynix.json */
     "./src/app/services/thynix.json", 1);
+    /* harmony import */
+
+
+    var _qazwode_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! ./qazwode.json */
+    "./src/app/services/qazwode.json");
+
+    var _qazwode_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(
+    /*! ./qazwode.json */
+    "./src/app/services/qazwode.json", 1);
 
     var NautDataService = /*#__PURE__*/function () {
       function NautDataService() {
@@ -1658,6 +1734,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           if (player === 'thynix') {
             playerNauts = Object(lodash__WEBPACK_IMPORTED_MODULE_1__["get"])(_thynix_json__WEBPACK_IMPORTED_MODULE_6___namespace, 'default', []);
+          }
+
+          if (player === 'qazwode') {
+            playerNauts = Object(lodash__WEBPACK_IMPORTED_MODULE_1__["get"])(_qazwode_json__WEBPACK_IMPORTED_MODULE_7___namespace, 'default', []);
           } // Remove any golden flags
 
 
@@ -1737,6 +1817,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     })();
     /***/
 
+  },
+
+  /***/
+  "./src/app/services/qazwode.json":
+  /*!***************************************!*\
+    !*** ./src/app/services/qazwode.json ***!
+    \***************************************/
+
+  /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, default */
+
+  /***/
+  function srcAppServicesQazwodeJson(module) {
+    module.exports = JSON.parse("[{\"id\":\"admiral\",\"name\":\"admiral\",\"tier\":\"epic\"},{\"id\":\"ayla\",\"name\":\"ayla\",\"tier\":\"epic\"},{\"id\":\"chucho\",\"name\":\"chucho\",\"tier\":\"common\"},{\"id\":\"clunk\",\"name\":\"clunk\"},{\"id\":\"coco\",\"name\":\"coco\",\"tier\":\"epic\"},{\"id\":\"commander\",\"name\":\"commander\",\"tier\":\"common\"},{\"id\":\"deadlift\",\"name\":\"deadlift\",\"tier\":\"common\"},{\"id\":\"derpl\",\"name\":\"derpl\"},{\"id\":\"dizzy\",\"name\":\"dizzy\",\"tier\":\"common\"},{\"id\":\"froggy\",\"name\":\"froggy\"},{\"id\":\"genji\",\"name\":\"genji\"},{\"id\":\"gnaw\",\"name\":\"gnaw\",\"tier\":\"epic\"},{\"id\":\"ix\",\"name\":\"ix\",\"tier\":\"common\"},{\"id\":\"jimmy\",\"name\":\"jimmy\",\"tier\":\"common\"},{\"id\":\"ksenia\",\"name\":\"ksenia\"},{\"id\":\"leon\",\"name\":\"leon\",\"tier\":\"epic\"},{\"id\":\"lonestar\",\"name\":\"lonestar\"},{\"id\":\"max\",\"name\":\"max\",\"tier\":\"common\"},{\"id\":\"nibbs\",\"name\":\"nibbs\"},{\"id\":\"penny\",\"name\":\"penny\"},{\"id\":\"qitara\",\"name\":\"qitara\",\"tier\":\"common\"},{\"id\":\"raelynn\",\"name\":\"raelynn\",\"tier\":\"legendary\"},{\"id\":\"rocco\",\"name\":\"rocco\"},{\"id\":\"scoop\",\"name\":\"scoop\",\"tier\":\"legendary\"},{\"id\":\"sentry\",\"name\":\"sentry\"},{\"id\":\"skree\",\"name\":\"skree\"},{\"id\":\"skrollder\",\"name\":\"skrollder\",\"tier\":\"legendary\"},{\"id\":\"smiles\",\"name\":\"smiles\",\"tier\":\"common\"},{\"id\":\"snork\",\"name\":\"snork\",\"tier\":\"common\"},{\"id\":\"ted\",\"name\":\"ted\"},{\"id\":\"vinnie\",\"name\":\"vinnie\"},{\"id\":\"voltar\",\"name\":\"voltar\"},{\"id\":\"yoolip\",\"name\":\"yoolip\"},{\"id\":\"yuri\",\"name\":\"yuri\"}]");
+    /***/
   },
 
   /***/
